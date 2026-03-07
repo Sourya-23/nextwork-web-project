@@ -8,7 +8,6 @@ Welcome to this project combining Java web app development and AWS CI/CD tools!
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Key Learnings] (#key learnings)
 - [Contact](#contact)
 - [Conclusion](#conclusion)
 
@@ -22,6 +21,21 @@ The deployment pipeline I'm building around the Java web app in this repository 
 - I'm doing this project to learn more about CI/CD abd get hands on experience in automating the flow from developing code and deploying the web app.
 - This fits into my carrer goals because i want to become DevOps engineer in future.
 - I added my 6 documentations along with this repository to know more about this project in step by step manner.
+
+### AWS CI/CD Pipeline
+This project demonstrates a CI/CD workflow built on AWS services.
+
+Architecture:
+GitHub → CodePipeline → CodeBuild → CodeArtifact → S3 → CodeDeploy → EC2
+
+The pipeline automatically builds and deploys a Java web application when new commits are pushed to GitHub.
+
+My Key Learnings:
+- CI/CD automation using AWS services
+- Artifact management using CodeArtifact
+- Deployment automation with CodeDeploy
+- Debugging IAM permission issues
+- Pipeline failure handling and rollback behavior
 
 <br>
 
@@ -40,13 +54,6 @@ Here’s what I’m using for this project:
 
 <br>
 
-# AWS CI/CD Deployment Pipeline
-This project demonstrates a CI/CD workflow built on AWS services.
-
-Architecture:
-GitHub → CodePipeline → CodeBuild → CodeArtifact → S3 → CodeDeploy → EC2
-
-The pipeline automatically builds and deploys a Java web application when new commits are pushed to GitHub.
 
 ## Setup
 To get this project up and running on your local machine, follow these steps:
@@ -65,13 +72,6 @@ To get this project up and running on your local machine, follow these steps:
     ```
 
 <br>
-
-## Key Learnings
-- CI/CD automation using AWS services
-- Artifact management using CodeArtifact
-- Deployment automation with CodeDeploy
-- Debugging IAM permission issues
-- Pipeline failure handling and rollback behavior
 
 ## Contact
 If you have any questions or comments about my CI/CD Project, please contact me:
