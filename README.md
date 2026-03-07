@@ -8,6 +8,7 @@ Welcome to this project combining Java web app development and AWS CI/CD tools!
 - [Introduction](#introduction)
 - [Technologies](#technologies)
 - [Setup](#setup)
+- [Key Learnings] (#key learnings)
 - [Contact](#contact)
 - [Conclusion](#conclusion)
 
@@ -39,6 +40,14 @@ Here’s what I’m using for this project:
 
 <br>
 
+# AWS CI/CD Deployment Pipeline
+This project demonstrates a CI/CD workflow built on AWS services.
+
+Architecture:
+GitHub → CodePipeline → CodeBuild → CodeArtifact → S3 → CodeDeploy → EC2
+
+The pipeline automatically builds and deploys a Java web application when new commits are pushed to GitHub.
+
 ## Setup
 To get this project up and running on your local machine, follow these steps:
 
@@ -56,6 +65,13 @@ To get this project up and running on your local machine, follow these steps:
     ```
 
 <br>
+
+## Key Learnings
+- CI/CD automation using AWS services
+- Artifact management using CodeArtifact
+- Deployment automation with CodeDeploy
+- Debugging IAM permission issues
+- Pipeline failure handling and rollback behavior
 
 ## Contact
 If you have any questions or comments about my CI/CD Project, please contact me:
